@@ -1,0 +1,122 @@
+/* Logo Di Navigasi */
+.navbar-brand img {
+    border-radius: 10px;
+}
+
+/* Font Di Navigasi */
+.nav-item {
+    font-weight: bold;
+}
+
+/* Menu Di Navigasi */
+#navbarNav .nav-item:hover * {
+    transform: scale(1.2);
+    color: yellow;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    transition: background 0.3s linear, color 0.3s linear;
+}
+
+body.dark {
+    background-color: black;
+    color: white;
+}
+
+/* Bagian Home */
+.jumbotron {
+    background-color: #0d6efd;
+}
+
+.jumbotron img {
+    margin-top: 90px;
+}
+/* Close Bagian Home */
+
+/* Image Slides */
+.galery img {
+    border-radius: 10px;
+}
+/* Close Image Slides */
+
+/* Intro Deskripsi */
+.qoute {
+    overflow: hidden;
+    background-color: #014585;
+    white-space: nowrap;
+}
+
+.qoute-title {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 15px 15px;
+    color: white;
+    background-color: #fbcc05;
+    left: 0px;
+    top: 0px;
+    height: 50px;
+}
+
+.teksjalan {
+    font-weight: bold;
+    color: white;
+    display: inline-flex;
+}
+/* Outro Deskripsi*/
+
+/* Bagian Tentang Kami */ 
+/* Kosong Stylenya Inline Semua */
+
+.row img {
+    border: 1px solid #000000;
+}
+
+/* Kontak */
+.follow {
+    font-size: 25px;
+}
+
+/* Section Pembina */
+.pembina {
+    background-color: #0d6efd;
+}
+
+/* Bagian Kontak */
+#kontak {
+    padding-top: 5rem;
+}
+
+.kontak {
+    background-color: #e2edff;
+}
+
+.tutupkontak {
+    margin-top: -16px;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.linkkontak a {
+    text-decoration: none;
+}
+
+.baganakhir {
+    background-color: #212529;
+}
+
+.baganakhir a {
+    color: white;
+    text-decoration: none;
+}
+
+.baganakhir a:hover {
+    color: white;
+}
